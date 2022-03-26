@@ -1,3 +1,184 @@
 body {
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Russo One', sans-serif;
+    background-color: #000;
+    background-image: url("https://cutewallpaper.org/21/pokemon-gif-wallpaper/Purple-Eared-Pikachu-Animation-by-moxie2D-Pikachu-art-.gif");
+    background-size: 100%;
+}
+
+#pokeImg {
+    position: relative;
+    display: flex;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-top: 0%;
+    margin: auto;
+    width: 60%;
+    padding: 0.5rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(125, 0, 0, 0.5) 100%);
+    color: orange;
+    text-align: center;
+    border-radius: 1rem;
+    border: orange;
+    border-style: inset;
+}
+
+.section1 {
+    display: grid;
+    border: orange;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(125, 0, 0, 0.8) 100%);
+    border-style: solid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 100px;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    height: 500px;
+    margin-bottom: 3%;
+
+}
+
+.contenedor1 {
+    margin-left: 10%;
+    margin-top: 7%;
+    height: 300px;
+    width: 300px;
+}
+
+.pantalla1 {
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 100%;
+    border: rgb(30, 255, 0);
+    border-style: inset;
+    background-image: url("https://media1.giphy.com/media/Ta1MVGKCG2GFq/giphy.gif?cid=ecf05e47y41ntem6m92r8v70m7bse3t95jja18qhyuqs1d71&rid=giphy.gif&ct=g");
+    background-size: 200%;
+}
+
+.contenedor2 {
+    margin-top: 5%;
+}
+
+.contenedor2 h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    color: orange;
+}
+
+.contenedor2 input {
+    display: flex;
+    margin: auto;
+    border-color: orange;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 15rem;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-size: 100%;
+    color: yellow;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.contenedor3 {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+.contenedor4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    border: inset;
+    border-color: orange;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 1rem;
+    width: 25rem;
+    height: 10rem;
+    background-color: rgb(43, 255, 0, 0.6);
+    background-size: 10%;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+}
+
+.boton {
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    border: rgb(255, 123, 0);
+    border-style: solid;
+    width: 4rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: rgb(0, 12, 66);
+    background: linear-gradient(90deg, rgba(0, 12, 66, 1) 0%, rgba(177, 0, 0, 1) 100%);
+    color: coral;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: orange;
+}
+
+
+@media screen and (max-width: 1115px) {
+    body {
+        background: none;
+        background: rgb(0,6,65);
+background: linear-gradient(90deg, rgba(0,6,65,1) 0%, rgba(177,0,0,1) 72%);
+    }
+
+    .section1 {
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding-bottom: 7rem;
+
+    }
+
+    .contenedor1 {
+
+        margin: auto;
+        margin-top: 7%;
+
+    }
+
+    .pantalla1 {
+        width: 90%;
+        height: 90%;
+    }
+
+    .contenedor2 h2 {
+        text-align: center;
+    }
+
+    .contenedor3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    .boton {
+        width: 15rem;
+        margin-top: 10px;
+        padding: auto;
+    }
+
+    .contenedor4 {
+        width: 80%;
+        height: 60%;
+    }
+
 }
